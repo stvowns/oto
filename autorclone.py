@@ -15,20 +15,20 @@ from logging.handlers import RotatingFileHandler
 
 # Account Klasörünün olduğu dosyanın yolunu girin
 # Örnek windows: D:\User Kalsörü\Desktop\AutoRclone\accounts
-sa_json_folder = r'/home/admin/oto/accounts900'
+sa_json_folder = r'/home/ubuntu/oto/narenci304'
 
 # Rclone un göndermek için kullandığı kod
 # Örnek Kodda değiştirmeniz gereken 2 kısım var "root/ChiaDepot" ve "GDrive:"
 # Gdrive ile belirtilen kısım RClone daki config in ismidir.
-cmd_rclone = 'rclone move /root/depo/plt theatreswon1: --drive-server-side-across-configs -vv --include /*.plot --log-file /root/movelog/moved.log --drive-chunk-size 1G'
+cmd_rclone = 'rclone move /root/depo/plt the-1: --drive-server-side-across-configs -vv --include /*.plot --log-file /root/movelog/moved.log --drive-chunk-size 1G'
 
 # Rclone Config de belirlediğiniz ismi yazın.
-rclone_dest_name = 'theatreswon1'
+rclone_dest_name = 'the-1'
 
 # AutoRclone'un loglarını tuttuğu yer. Dosya yolunu değişmesi gerekiyorsa değiştirin.
-script_log_file = r'/home/admin/oto/autorclone.log'
-instance_lock_path = r'/home/admin/oto/autorclone.lock'
-instance_config_path = r'/home/admin/oto/autorclone.conf'
+script_log_file = r'/home/ubuntu/oto/autorclone.log'
+instance_lock_path = r'/home/ubuntu/oto/autorclone.lock'
+instance_config_path = r'/home/ubuntu/oto/autorclone.conf'
 
 
 
