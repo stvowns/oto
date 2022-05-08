@@ -15,7 +15,7 @@ from logging.handlers import RotatingFileHandler
 
 # Account Klasörünün olduğu dosyanın yolunu girin
 # Örnek windows: D:\User Kalsörü\Desktop\AutoRclone\accounts
-sa_json_folder = r'/home/ubuntu/oto/analiz262'
+sa_json_folder = r'/home/ubuntu/oto/pellucia'
 
 # Rclone un göndermek için kullandığı kod
 # Örnek Kodda değiştirmeniz gereken 2 kısım var "root/ChiaDepot" ve "GDrive:"
